@@ -23,17 +23,21 @@ function accessElementInArray(array, index) {
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
-  return chocolateBars.shift();
+  chocolateBars.shift();
+  return chocolateBars;
 }
 
 function removeElementFromBeginningOfArray(chocolateBars) {
-  return chocolateBars.slice(1);
+  chocolateBars.slice(1);
+  return chocolateBars;
 }
 
 function destructivelyRemoveElementFromEndOfArray(chocolateBars) {
-  return chocolateBars.pop();
+  chocolateBars.pop();
+  return chocolateBars;
 }
 
 function removeElementFromEndOfArray(chocolateBars) {
-  return chocolateBars.slice(0, chocolateBars.length - 1);
+  chocolateBars.slice(0, chocolateBars.length - 1);
+  return chocolateBars;
 }
